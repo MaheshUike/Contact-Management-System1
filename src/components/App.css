@@ -1,0 +1,34 @@
+.main {
+  margin-top: 5em;
+}
+/* margin to the top of 5em to an element with a class of main. */
+
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+/* centers the content horizontally with justify-content: center and applies a padding of 10px */
+
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+/* here we are adjusting the input element of class ui search class to 100%
+and removes the border radius */
+
+.item {
+  padding: 15px 0px !important;
+}
+/* sets the padding of class item to 15px at the top and bottom
+ and 0px on the left and right side */
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* floats them to the right
+ sets the font size to 20px and 
+ sets the cursor to a pointer when hovering over them.*/
